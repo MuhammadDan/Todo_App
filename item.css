@@ -1,0 +1,61 @@
+.gradient-custom{
+    background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+    linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+    linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+    radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+    radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+  background-blend-mode: screen, color-dodge, overlay, difference, normal;
+  position: relative;
+}
+.logo{
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+.text{
+  padding-top: 15px;
+  text-align: center;
+}
+.work{
+  padding-top: 10px;
+  padding-left: 75px;
+}
+.container1{
+  position: absolute;
+  left: 30%;
+  top:20%;
+  height: 400px;
+  width: 600px;
+  border-radius: 20px;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: antiquewhite;
+}
+#list{
+  margin-top: 15px;
+  margin-left: 40px;
+}
+.todo_delete{
+  background-color: #51d500;
+}
+.todo_edit{
+  background-color: #0029ff;
+}
+.nikal{
+  border-color: #00ff94;
+  position: absolute;
+  background-color: transparent;
+  bottom: 4px;
+  left: 4px;
+  border-radius: 5px;
+}
+@media (max-width: 412px){
+  .container1{
+    width: 350px;
+    height: 450px;
+    left: 17px;
+  }
+  #list{
+    margin-left: 5px;
+  }
+}
